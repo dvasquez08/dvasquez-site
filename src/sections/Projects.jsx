@@ -1,30 +1,43 @@
 import { motion } from "framer-motion";
 import ProjectCard from "../components/ProjectCard";
+import Klarivo from "../assets/klarivo.png";
+import n8n from "../assets/n8n.jpg";
+import CheckIn from "../assets/flutter.jpg";
 
 const projectData = [
   {
-    title: "test",
-    description: "test",
-    tags: ["React", "Tailwind CSS", "Firebase Firestore", "n8n"],
-    imageUrl: "",
-    githubUrl: "#",
-    liveUrl: "#",
+    title: "Klarivo",
+    description: "AI Sales Enablement Agent",
+    tags: [
+      "React",
+      "Python",
+      "Fast API",
+      "Firestore",
+      "Firebase Authentication",
+      "Langchain",
+      "Gemini LLM",
+      "Docker",
+      "Google Cloud Run",
+      "Github Actions",
+    ],
+    image: Klarivo,
+    githubUrl: "https://github.com/davtekio/Klarivo",
+    liveUrl: "https://klarivo.app/login",
   },
   {
-    title: "test",
-    description: "test",
+    title: "Tech Things HQ",
+    description: "Fully Automated Self-Writing Tech Blog Website",
     tags: ["React", "Tailwind CSS", "Firebase Firestore", "n8n"],
-    imageUrl: "",
-    githubUrl: "#",
-    liveUrl: "#",
+    image: n8n,
+    githubUrl: "https://github.com/dvasquez08/tech-blog",
+    liveUrl: "https://techthingshq.com/",
   },
   {
-    title: "test",
-    description: "test",
-    tags: ["React", "Tailwind CSS", "Firebase Firestore", "n8n"],
-    imageUrl: "",
-    githubUrl: "#",
-    liveUrl: "#",
+    title: "Student Membership Checkin",
+    description: "Attendance Tracker App for Martial Arts School",
+    tags: ["Flutter", "Dart", "Firebase Firestore"],
+    image: CheckIn,
+    githubUrl: "https://github.com/dvasquez08/flutter_attendance_app",
   },
 ];
 
