@@ -1,8 +1,19 @@
 import { motion } from "framer-motion";
 
+const skills = [
+  "React",
+  "Python",
+  "Flutter",
+  "Tailwind CSS",
+  "Firebase",
+  "Google Cloud",
+  "Azure",
+  "n8n",
+];
+
 function About() {
   return (
-    <section>
+    <section id="about" className="py-24 px-6 md:px-12 lg:px-24">
       <motion.div
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
