@@ -1,11 +1,11 @@
 import { motion } from "framer-motion";
-import { FiGithub } from "react-icons/fi";
+import { FiGithub, FiExternalLink } from "react-icons/fi";
 
 const ProjectCard = ({
   title,
   description,
   tags,
-  imageUrl,
+  image,
   githubUrl,
   liveUrl,
 }) => {
@@ -15,7 +15,7 @@ const ProjectCard = ({
       transition={{ type: "spring", stiffness: 300 }}
       className="bg-gray-800/50 backdrop-blur-lg rounded-xl overflow-hidden border border-white/10"
     >
-      <img src={imageUrl} alt={title} className="w-full h-40 object-cover" />
+      <img src={image} alt={title} className="w-full h-40 object-cover" />
       <div className="p-6">
         <h3 className="text-xl font-bold mb-2">{title}</h3>
         <p className="text-gray-400 mb-4">{description}</p>
@@ -43,7 +43,9 @@ const ProjectCard = ({
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-400 hover:text-white transition-colors"
-          ></a>
+          >
+            <FiExternalLink size={20} />
+          </a>
         </div>
       </div>
     </motion.div>
