@@ -9,7 +9,7 @@ function Nav() {
       className="fixed top-4 left-1/2 -translate-x-1/2 w-[90%] max-w-3xl z-50"
     >
       <div className="flex items-center justify-between rounded-full bg-black/30 backdrop-blur-lg border border-white/10 px-6 py-3">
-        <div className="text-xl font-bold bg-gradient-to-r from-purple-500 to-cyan-400 bg-clip-text text-transparent">
+        <div className="text-xl font-bold bg-gradient-to-r from-sky-700 to-cyan-400 bg-clip-text text-transparent">
           David Vasquez
         </div>
         <div className="hidden md:flex items-center gap-6 text-sm text-gray-300">
