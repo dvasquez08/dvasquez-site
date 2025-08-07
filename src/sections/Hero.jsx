@@ -2,7 +2,10 @@ import { motion } from "framer-motion";
 
 function Hero() {
   return (
-    <section>
+    <section
+      id="hero"
+      className="h-screen flex flex-col justify-center items-center text-center"
+    >
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
@@ -11,7 +14,7 @@ function Hero() {
       >
         <p className="text-lg text-cyan-400 mb-2">Hi, my name is</p>
         <h1 className="text-5xl md:text-8xl font-extrabold mb-4">
-          <span className="bg-gradient-to-r from-purple-500 to-cyan-400 bg-clip-text text-transparent">
+          <span className="bg-gradient-to-r from-sky-700 to-cyan-400 bg-clip-text text-transparent">
             David Vasquez
           </span>
         </h1>
