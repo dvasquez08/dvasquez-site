@@ -11,7 +11,7 @@ const projectData = [
     title: "Klarivo",
     description: "AI Sales Enablement Agent",
     longDescription:
-      "Klarivo is an AI-powered sales enablement agent designed to help sales teams access information instantly. It uses a Retrieval-Augmented Generation (RAG) pipeline built with Langchain and Google's Gemini LLM to answer queries based on a company's internal knowledge base. The entire application is containerized with Docker and deployed on Google Cloud Run, with CI/CD handled by GitHub Actions.",
+      "Klarivo is an AI-powered sales enablement agent designed to help business owners find leads, qualify them, and schedule a meeting for them. The way it works is that it generates leads triggered by a button press, lists them for the user and writes an outreach email for each lead. It uses a human-in-the-loop system, meaning it does not send automatically. The end user can choose to edit the message or not send it, even deleting any leads they choose. They can mass send all emails. The app tracks metrics such as how many leads were emailed, how many opened the email, and how many clicked on the link that directs the lead to the landing page. The landing page is a dynamic page that loads differently depending on which user is logged in. It is a page where a user can fill out a form or interact with a chat bot which can schedule a meeting between the lead and the business owner. The entire application is containerized with Docker and deployed on Google Cloud Run, with CI/CD handled by GitHub Actions.",
     tags: [
       "React",
       "Python",
@@ -23,6 +23,7 @@ const projectData = [
       "Docker",
       "Google Cloud Run",
       "Github Actions",
+      "Sendgrid",
     ],
     image: Klarivo,
     githubUrl: "https://github.com/davtekio/Klarivo",
@@ -32,7 +33,7 @@ const projectData = [
     title: "Tech Things HQ",
     description: "Fully Automated Self-Writing Tech Blog Website",
     longDescription:
-      "This project is an experiment in content automation. An n8n workflow runs daily to fetch tech news, generate a unique blog post using an LLM, and publish it to a Ghost CMS instance. The front end is a simple, fast site that displays the content.",
+      "This project is an experiment in content automation. An n8n workflow runs daily to fetch tech news, generate a unique blog post along with an image using Google Gemini, and publishes it to a Firestore database. The front end is a simple, React JS site that displays the content and pulls the information from Firestore that the workflow populates, displaying the blog posts.",
     tags: ["React", "Tailwind CSS", "Firebase Firestore", "n8n"],
     image: n8n,
     githubUrl: "https://github.com/dvasquez08/tech-blog",
@@ -42,7 +43,7 @@ const projectData = [
     title: "Student Membership Checkin",
     description: "Attendance Tracker App for Martial Arts School",
     longDescription:
-      "Built for a local martial arts school, this cross-platform mobile app allows students to check in for classes using a unique ID. It provides administrators with a dashboard to track attendance and manage memberships. The app was built using Flutter for the front end and Firebase Firestore for the real-time database.",
+      "Built for a local martial arts school, this cross-platform mobile app allows students to check in for classes using an ID card with a barcode. It provides administrators with a dashboard to track attendance and manage memberships. The app was built using Flutter for the front end and Firebase Firestore for the real-time database. This helped save the school hours of manually writing attendance, saved on paper, and descreased human errors.",
     tags: ["Flutter", "Dart", "Firebase Firestore"],
     image: CheckIn,
     githubUrl: "https://github.com/dvasquez08/flutter_attendance_app",

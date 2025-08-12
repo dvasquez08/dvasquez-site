@@ -19,7 +19,7 @@ function Hero() {
           </span>
         </h1>
         <h2 className="text-3xl md:text-5xl font-bold text-gray-400 mb-8">
-          I build things for the web
+          I build things with automation
         </h2>
         <motion.a
           href="#projects"
