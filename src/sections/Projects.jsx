@@ -26,7 +26,6 @@ const projectData = [
       "Sendgrid",
     ],
     image: Klarivo,
-    githubUrl: "https://github.com/davtekio/Klarivo",
     liveUrl: "https://klarivo.app/login",
   },
   {
