@@ -23,10 +23,16 @@ function About() {
       >
         <h2 className="text-4xl font-bold text-center mb-4">About Me</h2>
         <p className="text-lg text-gray-400 text-center max-w-2xl mx-auto mb-12">
-          I'm a passionate software developer with a knack for creating
-          beautiful, functional, and user-centric applications. My journey in
-          tech is driven by a desire to solve cmplex problems and bring ideas to
-          life.
+          Welcome! I'm a IT technician and an app developer that enjoys building
+          things, and also fixing things. I really do like problem solving. Yes,
+          even the bugs. It's a great learning oppurtunity and it's how I got to
+          where I am.
+        </p>
+        <p className="text-lg text-gray-400 text-center max-w-2xl mx-auto mb-12">
+          Where there is a problem, there's a way. And finding that way by
+          creating helpful tools is what I'm passionate about! Feel free to take
+          a look at my work. I'm open to building apps for you or your business,
+          and to collaborate with others.
         </p>
         <div className="text-center">
           <h3 className="text-2xl font-semibold mb-6">My Toolkit</h3>
