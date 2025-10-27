@@ -4,6 +4,7 @@ import ProjectCard from "../components/ProjectCard";
 import Klarivo from "../assets/klarivo.png";
 import n8n from "../assets/n8n.jpg";
 import CheckIn from "../assets/flutter.jpg";
+import HappyYEG from "../assets/happy-yeg.jpg";
 import ProjectModal from "../components/ProjectModal";
 
 const projectData = [
@@ -33,10 +34,21 @@ const projectData = [
     description: "Fully Automated Self-Writing Tech Blog Website",
     longDescription:
       "This project is an experiment in content automation. An n8n workflow runs daily to fetch tech news, generate a unique blog post along with an image using Google Gemini, and publishes it to a Firestore database. The front end is a simple, React JS site that displays the content and pulls the information from Firestore that the workflow populates, displaying the blog posts.",
-    tags: ["React", "Tailwind CSS", "Firebase Firestore", "n8n"],
+    tags: ["React", "Google Gemini", "Firebase Firestore", "n8n"],
     image: n8n,
     githubUrl: "https://github.com/dvasquez08/tech-blog",
     liveUrl: "https://techthingshq.com/",
+  },
+  {
+    title: "Happy YEG",
+    description:
+      "A website where I help people in Edmonton find the best happy hour specials in the city.",
+    longDescription:
+      "This site was a fun one to build. It is a website that lists some of the city of Edmonton's best happy hour specials in different regions, north, west, south, and downtown. The list is pulled from a Firestore database. How does the list get populated? I use AI of course! I have two n8n workflows. The first is a scheduled workflow where the AI searches the web and populates the deteails into Firestore. The second is where I give feed the data to an AI agent which formats it, organizes the fields and sends it to Firestore.",
+    tags: ["NextJS", "n8n", "Google Gemini", "Firebase Firestore"],
+    image: HappyYEG,
+    githubUrl: "https://github.com/dvasquez08/happy-yeg-site",
+    liveUrl: "https://happyyeg.com",
   },
   {
     title: "Student Membership Checkin",
