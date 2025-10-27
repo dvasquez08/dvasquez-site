@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { FiGithub, FiLinkedin, FiMail } from "react-icons/fi";
+import { FiGithub, FiLinkedin, FiMail, FiYoutube } from "react-icons/fi";
 
 function Contact() {
   return (
@@ -36,6 +36,13 @@ function Contact() {
             className="text-gray-400 hover:text-white"
           >
             <FiLinkedin size={24} />
+          </a>
+          <a
+            href="https://www.youtube.com/@davtekio"
+            target="_blank"
+            className="text-gray-400 hover:text-white"
+          >
+            <FiYoutube size={24} />
           </a>
           <a
             href="mailto:dvasquez@davtek.io"
